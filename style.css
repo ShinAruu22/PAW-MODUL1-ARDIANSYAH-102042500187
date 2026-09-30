@@ -49,10 +49,11 @@ nav a:hover {
     color: #ffffff;
     padding: 80px 5%;
     margin: 30px 5%;
-    border-left: 5px solid #e60000;
+    border-bottom: 4px solid #e60000;
     border-radius: 4px;
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 .hero p:first-child {
@@ -95,11 +96,13 @@ main {
 
 .katalog-header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     margin-bottom: 30px;
     border-bottom: 1px solid #333333;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+    gap: 15px;
 }
 
 .katalog-header h2 {
@@ -113,7 +116,7 @@ main {
     font-weight: bold;
     color: #ff3333;
     background: #1a1a1a;
-    padding: 8px 15px;
+    padding: 8px 18px;
     border: 1px solid #333333;
     border-radius: 4px;
     font-family: monospace;
@@ -135,6 +138,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card:hover {
@@ -160,6 +164,7 @@ main {
 
 .badges-container {
     display: flex;
+    justify-content: center;
     gap: 10px;
     margin-bottom: 10px;
 }
@@ -268,12 +273,6 @@ footer {
     
     header {
         flex-direction: column;
-        gap: 15px;
-    }
-    
-    .katalog-header {
-        flex-direction: column;
-        align-items: flex-start;
         gap: 15px;
     }
     
