@@ -143,7 +143,7 @@ $total_produk = count($produk);
     </main>
 
     <footer>
-        <p>&copy; <?php echo date("Y"); ?> Cia Store. Tugas Praktikum PAW.</p>
+        <p>&copy; <?php echo date("Y"); ?> Amphi Store. Tugas Praktikum PAW.</p>
     </footer>
 
 </body>
